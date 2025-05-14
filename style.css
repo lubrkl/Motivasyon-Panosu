@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 60px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    transition: background-color 0.5s, color 0.5s;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+textarea {
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+    resize: none;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.note-display {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #666;
+    text-align: left;
+    white-space: pre-wrap;
+    min-height: 50px;
+}
+
+.dark {
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.dark .container {
+    background-color: rgba(46, 46, 46, 0.9);
+}
+
+.dark .note-display {
+    background-color: #2a2a2a;
+    border-color: #aaa;
+    color: #eee;
+}
+
+#datetime {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.dark #datetime {
+    color: #ddd;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.dark .footer {
+    background-color: #111;
+    color: #ccc;
+}
